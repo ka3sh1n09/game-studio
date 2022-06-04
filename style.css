@@ -1,0 +1,62 @@
+/* хто?
+що,: як? ;
+ 
+
+
+*/
+/* селектори тега (елемента) */
+header{
+/* властивисть: значення; */
+background-color:  cornflowerblue;
+padding:50px 0;
+}
+
+sektion{
+    background-color: cadetblue;
+
+}
+/* селектори класу */
+.ferst-sektion {
+    background-color: coral;
+}
+
+/* селектор індефікатора */
+main {
+   background-color: #cecece;
+}
+    
+    /* дочірні селектори / childron selektros */
+    header p{
+        text-transform: uppercase;
+    }
+
+    header div p{
+        color: yellow;
+    }
+
+/* селектор нащадка */
+header > p (
+ color: red;
+)
+
+/* групові селектори */
+header, main, footer{
+width:1200px;
+margin: 0 ayto;
+}
+
+/* сусідній селектор */
+hr + article{
+    background-color: mediumslateblue;
+}
+
+/* спорідний селектор */
+article hr(
+    height: 6px;
+    background-color: #333
+)
+
+/* селектор атрибута */
+a[href] {
+    background-color: green
+}
